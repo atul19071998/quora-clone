@@ -1,24 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+ 
+import Navbar from './component/Navbar';
+import Sidebardetails from './pages/Sidebardetails';
 
+import Home from './pages/Home';
+import Following from './pages/Following';
+import Answer from './pages/Answer';
+import Spaces from './pages/Spaces';
+import Notification from './pages/Notification';
+import {Routes,Route} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Following" element={<Following/>}/>
+        <Route path="/Answer" element={<Answer/>}/>
+        <Route path="/Spaces" element={<Spaces/>}/>
+        <Route path="/Notification" element={<Notification/>}/>
+        <Route path="/Sidebardetails/:names" element={<Sidebardetails/>} />
+      </Routes>
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
+      </div>
   );
 }
 
