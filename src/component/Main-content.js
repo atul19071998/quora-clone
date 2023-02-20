@@ -1,5 +1,6 @@
 import React from "react";
-import "../componentcss/Main-content.css"
+import "../componentcss/Main-content.css";
+import { usePostData } from "../CreateContext/PostContext";
 const Details = () => {
   const user = [
     {
@@ -60,13 +61,15 @@ const Details = () => {
         share:55,
       },
   ];
+
+  let {postData} = usePostData()
   return (
     <div className="details">
-      {user.map((ele) => (
-        <div className="detail1">
+      {postData.map((ele) => (
+        <div className="detail1" key={ele.Id}>
           <div className="detailimg">
           <div className="detailimg1">
-            <img src={ele.logoimage} alt="" />
+            <img src={ele.ProfileImg } alt="" />
           </div>
           <div className="detailimg2">
             <h6>{ele.name} 	• <a href="">Follow</a></h6>
@@ -74,13 +77,13 @@ const Details = () => {
           </div>
           <div className="detail2">
             <div>
-              <h5>{ele.question}</h5>
+              <h5>{ele. Heading}</h5>
             </div>
             <div>
-                <h4>{ele.Answer} <a href="">(more)</a> </h4>
+                <h4>{ele.Info} <a href="">(more)</a> </h4>
             </div>
             <div className="detailsimg">
-                <img src={ele.image} alt="" />
+                <img src={ele.PostImg } alt="" />
             </div>
             <div className="detailcom">
               <div className="detailcom1"><i class="fa-solid fa-arrow-up">   {ele.upvote}</i></div>

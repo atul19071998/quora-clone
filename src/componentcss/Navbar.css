@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     /* border:1px solid red; */
 }
 .main-container{
@@ -19,11 +18,9 @@
 .contain{
     width:100%;
     height:70px;
-    padding: 0.7rem;
+    padding: 0.5rem;
     border:1px solid transparent;
     display: flex;
-     
-    
 }
 .item1{
     width:15%;
@@ -50,22 +47,17 @@
     justify-content: space-around;
 }
  
- 
 .content2{
     width:52%;
+    height:80%;
     display:flex;
     border:1px solid grey;
 }
 .content2 input{
     width:100%;
     height:80%;
-    font-size: 17px;
+    font-size: 15px;
     border:none;
-
-
- 
-    
-    
 }
  
 .content2 .search2{
@@ -80,9 +72,9 @@
     left:10px;
       
 }
-.fa-house{
+/* .fa-house{
     color: #b92b27;
-}
+} */
 .fa-house:hover {
     background-color: rgb(230, 225, 225);
   }
@@ -97,8 +89,7 @@
 i{
     font-size: 25px;
     padding:0.4rem;
-    color:rgb(65, 64, 64);
-    
+     
 }
 .nav1{
     width: 30%;
@@ -107,8 +98,6 @@ i{
 .nav2{
     width:20%;
     display: flex;
-    
-   
 }
  .head1{
 width:50px;
@@ -119,9 +108,7 @@ height:35px;
 }
 .nav2 .head2{
     width:35px;
- 
- 
-    }
+  }
 .nav2 .head1{
     padding-top:5px;
 }
@@ -140,7 +127,6 @@ height:35px;
     overflow: hidden;
     height:40px;
     
-   
   }
   .nav1 button{
     width:100%;
@@ -190,7 +176,7 @@ height:35px;
     text-align: center;
   }
   
-  .dropdown-content a:hover {
+   .dropdown-content a:hover {
     background-color: #ddd;
   }
   
@@ -200,9 +186,53 @@ height:35px;
   .dropdown button{
     width:180px;
     height:40px;
-    
-   
   
-
   }
+  .Link{
+    display: flex;
+    flex-direction:row;
+    color:black
+  }
+  .Link:hover{
+    background-color: #d8d8d8;
+  }
+  .Link .s1 i{
+    font-size: 18px;
+    color:black;
+    padding:0.6rem;
+  }
+  .Link .s2{
+    color:black;
+    padding:0.4rem;
+ 
+  }
+  .Linkh{
+    color:grey;
+    padding: 0.4rem;
+    text-decoration: none;
+  }
+  .nav3{
+    width:40%;
+    height:100%;
+    /* border:1px solid black; */
+    margin-left: 1.5rem;
+  }
+   .modals{
+    width:80%;
+    height:70%;
+    font-size:1.1rem;
+    margin-top:0.2rem;
+    background-color: #b92b27;
+    border-radius:25px;
+    text-align: center;
+    color:white;
+  }
+
+  .red{
+    color: #b92b27;
+ 
+  }
+  .blue{
+    color:rgb(120, 120, 122);
   
+  }
