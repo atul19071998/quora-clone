@@ -1,11 +1,12 @@
 import { createContext,useContext,useState } from "react";
 
 import React from "react";
-import { Details } from '../component/Main-content.js';
+ import{ Userdata} from "../Data/Userdata";
 
 let PostContext = createContext();
  function PostDataProvider ({ children}) {
-    let [postData,setPostData] = useState([...Details]);
+    let [postData,setPostData] = useState([...Userdata]);
+    console.log(postData)
     return(
         <PostContext.Provider value={{postData,setPostData}}>
             {children}

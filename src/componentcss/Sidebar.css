@@ -58,10 +58,12 @@
      padding:0.3rem;
      
   }
-  .sideinfo a{
+  .sideinfo {
     /* padding: 0.2rem; */
     color:grey;
     font-size: 14px;
-    text-decoration: none;
-  }
    
+  }
+   a{
+    text-decoration: none;
+   }

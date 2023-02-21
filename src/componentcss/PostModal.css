@@ -5,13 +5,16 @@
     /* border:1px solid blue; */
 
 }
-.modal-wrapper{
+.modal-posts input{
     width:100%;
-    height:50vh;
-  
-    display:flex;
+    font-size: 1.5rem;
+    border-color: grey;
 }
-.modal-wrapper-left{
+/* .modal-wrapper{
+    width:100%;
+    display:flex;
+} */
+/* .modal-wrapper-left{
     width:50%;
     padding: 1rem;
 }
@@ -19,4 +22,4 @@
 .modal-wrapper-right{
     width:50%;
     padding: 1rem;
-}
+} */
