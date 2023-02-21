@@ -2,9 +2,7 @@ import React from 'react'
 import "../componentcss/Feed.css";
 import PostModal from '../component/PostModal'
 function Feed() {
-
   return (
- 
     <div classname="Feed-main">
          <PostModal/>
         <div className="feeds">

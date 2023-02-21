@@ -2,7 +2,7 @@ import React from 'react'
 import SidebarOption from '../component/SidebarOption';
 import Main from '../component/Main';
  
-import "../componentcss/Home.css";
+import "../pagescss/Home.css";
 import Rightbar from '../component/Rightbar';
 function Home() {
   return (

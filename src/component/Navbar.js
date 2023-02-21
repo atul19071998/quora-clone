@@ -186,7 +186,7 @@ export default function Navbar({setTheme}) {
           </div>
 
           <div className="nav3">
-            <button className="btn btn-danger"  data-toggle="modal" data-target="#myModal">Add questions</button>
+            <button className="btn btn-danger"   data-toggle="modal" data-target="#myModal">Add questions</button>
             
           </div>
         </div>

@@ -1,3 +1,4 @@
+/* styling starts here */
 *{
     margin:0;
     padding: 0;
@@ -161,3 +162,16 @@
     color:#484949 ;
     padding-left: 0.4rem;
  }
+
+ @media only screen and (max-width: 600px) {
+
+    .answerwrap1{
+        display: none;
+    }
+
+    .answerwrap3{
+        display:none;
+    }
+    
+}
+ /* styling ends here */

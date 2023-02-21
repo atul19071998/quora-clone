@@ -8,15 +8,15 @@ const Spaces = () => {
           <div className="left-spaces-box">
             <div className="banner">
                 <div className="bannner">
-              <h5>Your Spaces</h5>
-              <div>Recently visited</div>
+              <div><h5>Your Spaces</h5></div>
+              <div className="b-right">Recently visited</div>
               </div>
               <div className="buttons-space">
                 <button className="mx-2">
                   <i class="fa-solid fa-circle-plus"></i> Create a Space
                 </button>
                 <button>
-                  <i class="fa-regular fa-compass"></i> Discover Spaces{" "}
+                  <i class="fa-regular fa-compass"></i> Discover Spaces 
                 </button>
               </div>
             </div>

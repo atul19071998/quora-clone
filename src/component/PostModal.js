@@ -16,7 +16,7 @@ export default  function PostModal() {
  let [inputPostImg,setInputPostsImg] = useState("");
 
 
- console.log(inputPostImg);
+ console.log(inputHeading);
 
  function createPost() {
 if(!inputName || !inputProfileImg || !inputHeading || !inputInfo || !inputPostImg){
@@ -26,7 +26,7 @@ if(!inputName || !inputProfileImg || !inputHeading || !inputInfo || !inputPostIm
     Id:new Date().getTime().toString(),
     name:inputName,
     logoimage:inputProfileImg,
-    question: inputHeading,
+    Question: inputHeading,
     Answer:inputInfo,
     image:inputPostImg
    }

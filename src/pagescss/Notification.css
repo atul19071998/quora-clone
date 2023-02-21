@@ -1,3 +1,4 @@
+/* styling starts here */
 *{
     margin:0;
     padding: 0;
@@ -102,3 +103,19 @@
     text-align: center;
     color:rgb(66, 66, 66)
 }
+
+@media only screen and (max-width: 600px) {
+.notifywrap-main{
+   width:100%;
+}
+.notify-wrap3{
+    display:none
+}
+.notifying1{
+    display: none;
+}
+.notify-img img{
+    width:50%;
+}
+}
+/* styling ends here */

@@ -4,7 +4,7 @@ export const Userdata = [
       name: "Seeking Truth",
       logoimage:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS0phVj_II0bh3FgSdhXTW8yk33he0Oo2RvloUcqmny6b_tcIePtgKHj4nuuq0wJ3Uhy0&usqp=CAU",
-      question:
+      Question:
         "How do I become more witty, especially in responding to offensive or rude comments?",
       Answer:
         "A guide for you to deal with unthoughtful comments and establish firm boundaries with people in a subtle yet assertive way.",
@@ -17,7 +17,7 @@ export const Userdata = [
       name: "Living Relation",
       logoimage:
         "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202210/sidharth-malhotra-exclusive_1-three_four.jpg?VersionId=WIxY27jOtO6dd6UrYdl8m4nTtjPTbcdx",
-      question: " Sidharth Malhotra REACTS to the big marriage questions?",
+      Question: " Sidharth Malhotra REACTS to the big marriage questions?",
       Answer:
         " Sidharth and Kiara have reportedly decided to get married in Chandigarh. A few weeks ago, the two were spotted visiting Manish Malhotra's house and it made their fans speculate that the wedding preparations have finally begun.",
       image:
@@ -29,7 +29,7 @@ export const Userdata = [
       name: "Quora Sessions ",
       logoimage:
         "https://www.ufpb.br/ufpb/icons/redes-sociais/quora.png/@@images/image.png ",
-      question: " Explore how your business can grow with Quora.?",
+      Question: " Explore how your business can grow with Quora.?",
       Answer:
         " Businesses come to Quora to highlight their position as an industry thought leader, drive traffic back to their website, and build valuable relationships with customers. .",
       image:
@@ -41,7 +41,7 @@ export const Userdata = [
       name: "Quora Sessions ",
       logoimage:
         " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHUdjrldofdIJ5w5dB7oC2rTKqdtS6fTesc7jOmPqJl2RbMzmJ4j-IIRMyrZxcZgHJhkQ&usqp=CAU ",
-      question: "  What is the study in science?",
+      Question: "  What is the study in science?",
       Answer:
         " The Sciences are generally divided into three academic fields: Biology, Chemistry and Physics. Biologists study living things from plants to people, Chemists study the properties of substances and how they react with each other and Physicists are concerned with studying forces in the universe .",
       image:
@@ -49,3 +49,5 @@ export const Userdata = [
          
       },
   ];
+
+  

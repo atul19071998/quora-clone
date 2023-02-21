@@ -101,3 +101,38 @@ h5{
 .bottom-cards-section{
     margin-top:1rem;
 }
+
+@media only screen and (max-width: 600px) {
+.right-pending-invites{
+    display: none;
+}
+.banner .bannner{
+    width:100%
+}
+.buttons-space{
+    display: flex;
+}
+ 
+ .buttons-space button {
+    width:50%;
+    height:30px;
+ }
+.all-cards-categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.banner {
+     
+    height: 20vh;
+}
+.b-right{
+  margin-left:7rem;
+}
+h5{
+    width:100%
+}
+.left-spaces-box {
+    width: 100%;
+}
+}

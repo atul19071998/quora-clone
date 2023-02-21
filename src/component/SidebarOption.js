@@ -40,12 +40,14 @@ const SidebarOption = () =>{
     ]
     return(
      <div className="Sidenav">
+      
         {
             space.map((e)=>
            {
             let url=`/Sidebardetails/${e.name}`
            return(
             
+                
                 <NavLink to= {url} className="info">
                     <div className="info1">
                      <img src={e.image}></img>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "../componentcss/Following.css";
+import "../pagescss/Following.css";
 import SidebarOption from '../component/SidebarOption';
 import FollowerData from '../component/FollowerData'
 function Following() {

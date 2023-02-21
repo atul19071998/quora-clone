@@ -1,3 +1,4 @@
+/* styling starts here */
 .card-container {
  
     background-color: white;
@@ -57,3 +58,12 @@
     text-align: center;
     color: rgb(22, 22, 22);
 }
+@media only screen and (max-width: 600px) {
+
+    .card-container{
+        width:100%;
+
+    }
+    }
+ 
+/* styling ends here */

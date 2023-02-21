@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import {details} from  '../pages/Details';
-import "../componentcss/Sidebardetail.css";
+import "../pagescss/Sidebardetail.css";
 import SidebarOption from '../component/SidebarOption';
 const SideBarDetail = () =>{
     let {names} =useParams();

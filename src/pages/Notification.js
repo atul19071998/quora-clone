@@ -1,5 +1,5 @@
 import React from 'react'
-import "../componentcss/Notification.css"
+import "../pagescss/Notification.css"
 const  Notification =()=> {
   return (
     <div className="notification-wrapper">

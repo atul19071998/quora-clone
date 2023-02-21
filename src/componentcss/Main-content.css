@@ -1,3 +1,4 @@
+/* styling starts here */
 *{
     margin: 0;
     padding: 0;
@@ -92,3 +93,20 @@ h6{
     font-size:16px;
     color: rgb(100, 99, 99);
 }
+@media only screen and (max-width: 600px) {
+.detailcom1{
+    width:20%;
+}
+.detailcom2{
+    width:20%;
+}
+.detailcom3{
+    width:20%;
+}
+.detailcom4{
+    width:20%;
+}
+
+}
+
+/* styling ends here */

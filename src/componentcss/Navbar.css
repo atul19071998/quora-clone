@@ -1,3 +1,4 @@
+/* styling starts here */
 *{
     margin: 0;
     padding: 0;
@@ -236,3 +237,55 @@ height:35px;
     color:rgb(120, 120, 122);
   
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .nav3{
+      display: none;
+    }
+   .content2{
+     width:100%;
+     margin-left:1rem
+   }
+   .logo img{
+    height:45px;
+    padding:-0.5rem;
+   }
+   .contain{
+    width:100%;
+   }
+
+   .logo img{
+    width:110px;
+    height:42px;
+    margin-left:-80px;
+  
+     
+}
+ .item2{
+  width:100%
+ }
+ .item1{
+  width:70%;
+}
+  
+.content2{
+  display:none;
+}
+ 
+.nav1 button{
+  width:100px;
+  height:35px;
+  margin-left:-80px;
+ 
+}
+
+.item3{
+  width:50%;
+  display:flex;
+}
+ 
+
+  }
+
+  /* styling ends here */

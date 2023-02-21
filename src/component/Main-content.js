@@ -27,10 +27,10 @@ const Details = () => {
                 <img src={ele.image } alt="" />
             </div>
             <div className="detailcom">
-              <div className="detailcom1"><i class="fa-solid fa-arrow-up"> </i>21</div>
-              <div className="detailcom2"><i class="fa-solid fa-arrow-down"> </i>15</div>
-              <div className="detailcom3"> <i class="fa-regular fa-comment"> </i>2</div>
-              <div className="detailcom4"> <i class="fa-solid fa-share-nodes"> </i>3</div>
+              <div className="detailcom1"><i class="fa-solid fa-arrow-up"> 21K </i></div>
+              <div className="detailcom2"><i class="fa-solid fa-arrow-down"> 3.1 m</i> </div>
+              <div className="detailcom3"> <i class="fa-regular fa-comment"> 10 </i></div>
+              <div className="detailcom4"> <i class="fa-solid fa-share-nodes"> 100+ </i></div>
             </div>
           </div>
         </div>

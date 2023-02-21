@@ -1,4 +1,4 @@
-
+// create a array of object and export it --------------------------
 let CardInfo = [
     {
         outerimg:"  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXLkVzlMFA1VpJ9DrOAF7XZg18QDoSK9xKxg&usqp=CAU",
